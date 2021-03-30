@@ -4,14 +4,14 @@
 
 class Animal
 {
-private:
+public:
 	float vikt;
 	int age;
 	std::string Diet;
 	int serialnumber;
 	float speed;
 	std::string name;//variabler
-public:
+
 	void Getvikt()
 	{
 		std::cout << "What is the animals vikt?" << std::endl;
@@ -47,9 +47,9 @@ public:
 
 class Zebra : public Animal
 {
-private:
-	float Maxspeed;
 public:
+	float Maxspeed;
+
 	void GetMaxspeed()
 	{
 		std::cout << "What is the Zebras max speed?" << std::endl;
@@ -59,9 +59,9 @@ public:
 
 class Giraff : public Animal
 {
-private:	
+public:	
 	float maxheight;
-public:
+
 	void Getmaxheight()
 	{
 		std::cout << "what is the giraffs max height" << std::endl;
@@ -71,9 +71,9 @@ public:
 
 class Pingvin : public Animal
 {
-private:	
-	std::string homie;
 public:
+	std::string homie;
+
 	void Gethomie()
 	{
 	std::cout << "who is your buddy" << std::endl;
@@ -83,10 +83,10 @@ public:
 
 class Lejon : public Animal
 {
-private:	
+public:	
 	std::string meat;
 	int xkg;
-public:
+
 	void Getxkg()
 	{
 	std::cout << "What kind of meet does the lion like" << std::endl;
@@ -101,18 +101,54 @@ public:
 
 class Elephant : public animal
 {
-private:
-	int earsize;
 public:
+	int earsize;
+
 	void Getearsize()
 	{
 		std::cout << "what is the elephants earsize" << std::endl;
 		std::cin >> earsize;
 	};
 };
+
+
 int main()
 {
-	Animal, Zebra, Giraff, Pingvin, Lejon, Elephant
+	Animal animal
+	{
+	void Getvikt()
+	{
+		std::cout << "What is the animals vikt?" << std::endl;
+		std::cin >> vikt;
+	}
+	void Getage()
+	{
+		std::cout << "how old is the animal?" << std::endl;
+		std::cin >> age;
+	}
+	void GetDiet()
+	{
+		std::cout << "what does the animal eat?" << std::endl;
+		std::cin >> Diet;
+	}
+	void Getserialnumber()
+	{
+		std::cout << "what is the animals serialnumber?" << std::endl;
+		std::cin >> serialnumber;
+	}
+	void Getspeed()
+	{
+		std::cout << "how fast is the animal" << std::endl;
+		std::cin >> speed;
+	}
+	void Getname()
+	{
+		std::cout << "What is the animals name?" << std::endl;
+		std::cin >> name;
+	}
+	};
+
+
 
 	
 
