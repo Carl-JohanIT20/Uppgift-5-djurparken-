@@ -115,8 +115,14 @@ public:
 int main()
 {
 	Zebra zebra
-		zebra.GetMaxspeed(65);
-		
+
+	zebra.GetMaxspeed();
+	zebra.Getvikt(200);
+	zebra.Getage(25);
+	zebra.GetDiet();
+	zebra.Getserialnumber();
+	zebra.
+
 
 
 	
