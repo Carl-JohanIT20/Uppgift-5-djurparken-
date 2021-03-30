@@ -114,39 +114,12 @@ public:
 
 int main()
 {
-	Animal animal
-	{
-	void Getvikt()
-	{
-		std::cout << "What is the animals vikt?" << std::endl;
-		std::cin >> vikt;
-	}
-	void Getage()
-	{
-		std::cout << "how old is the animal?" << std::endl;
-		std::cin >> age;
-	}
-	void GetDiet()
-	{
-		std::cout << "what does the animal eat?" << std::endl;
-		std::cin >> Diet;
-	}
-	void Getserialnumber()
-	{
-		std::cout << "what is the animals serialnumber?" << std::endl;
-		std::cin >> serialnumber;
-	}
-	void Getspeed()
-	{
-		std::cout << "how fast is the animal" << std::endl;
-		std::cin >> speed;
-	}
-	void Getname()
-	{
-		std::cout << "What is the animals name?" << std::endl;
-		std::cin >> name;
-	}
-	};
+	Zebra zebra
+		zebra.GetMaxspeed(65);
+		
+
+
+	
 
 
 
