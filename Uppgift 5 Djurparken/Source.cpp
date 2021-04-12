@@ -121,10 +121,18 @@ int main()
 	zebra.Getage(25);
 	zebra.GetDiet();
 	zebra.Getserialnumber();
-	zebra.
+	zebra.Getspeed(67);
+	zebra.Getname.();
 
+	Giraff giraff
 
-
+	giraff.Getmaxheight();
+	giraff.Getvikt();
+	giraff.Getage();
+	giraff.GetDiet();
+	giraff.Getserialnumber();
+	giraff.Getspeed();
+	giraff.Getname.();
 	
 
 
