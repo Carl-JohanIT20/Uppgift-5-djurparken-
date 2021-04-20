@@ -11,11 +11,10 @@ public:
 	int serialnumber;
 	float speed;
 	std::string name;//variabler
-	std::string animal;
 
 	void Getweight()
 	{
-		std::cout << "What is the animals weight?" << std::string animal << std::endl;
+		std::cout << "What is the animals weight?" << std::endl;
 		std::cin >> weight;
 	}
 	void Getage()
@@ -50,10 +49,11 @@ class Zebra : public Animal
 {
 public:
 	float Maxspeed;
+	std::string zebra;
 
 	void GetMaxspeed()
 	{
-		std::cout << "What is the Zebras max speed?" << std::endl;
+		std::cout << "What is the Zebras max speed?" << std::string zebra << std::endl;
 		std::cin >> Maxspeed;
 	}
 };
@@ -62,10 +62,11 @@ class Giraff : public Animal
 {
 public:	
 	float maxheight;
+	std::string giraff;
 
 	void Getmaxheight()
 	{
-		std::cout << "what is the giraffs max height" << std::endl;
+		std::cout << "what is the giraffs max height" << std::string giraff << std::endl;
 		std::cin >> maxheight;
 	}
 };
@@ -74,10 +75,11 @@ class Pingvin : public Animal
 {
 public:
 	std::string homie;
+	std::string pingvin;
 
 	void Gethomie()
 	{
-	std::cout << "who is your buddy" << std::endl;
+	std::cout << "who is your buddy" << std::string pingvin << std::endl;
 	std::cin >> homie;
 	};
 };
@@ -87,15 +89,16 @@ class Lejon : public Animal
 public:	
 	std::string meat;
 	int xkg;
+	std::string lejon;
 
 	void Getxkg()
 	{
-	std::cout << "What kind of meet does the lion like" << std::endl;
+	std::cout << "What kind of meet does the lion like" << std::string lejon << std::endl;
 	std::cin >> xkg;
 	};
 	void Getstringmeat()
 	{
-	std::cout << "what type of meet does you lion like" << std::endl;
+	std::cout << "what type of meet does you lion like" << std::string lejon << std::endl;
 	std::cin >> meat;
 	};
 };
@@ -104,10 +107,11 @@ class Elephant : public Animal
 {
 public:
 	int earsize;
+	std::string elephant;
 
 	void Getearsize()
 	{
-		std::cout << "what is the elephants earsize" << std::endl;
+		std::cout << "what is the elephants earsize" << std::string elephant << std::endl;
 		std::cin >> earsize;
 	};
 };
