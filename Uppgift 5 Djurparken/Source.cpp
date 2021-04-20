@@ -92,14 +92,14 @@ public:
 	std::cout << "What kind of meet does the lion like" << std::endl;
 	std::cin >> xkg;
 	};
-	void Getstringmeet()
+	void Getstringmeat()
 	{
 	std::cout << "what type of meet does you lion like" << std::endl;
-	std::cin >> meet;
+	std::cin >> meat;
 	};
 };
 
-class Elephant : public animal
+class Elephant : public Animal
 {
 public:
 	int earsize;
@@ -114,7 +114,7 @@ public:
 
 int main()
 {
-	Zebra zebra
+	Zebra zebra;
 
 	zebra.GetMaxspeed();
 	zebra.Getvikt(200);
@@ -122,9 +122,9 @@ int main()
 	zebra.GetDiet();
 	zebra.Getserialnumber();
 	zebra.Getspeed(67);
-	zebra.Getname.();
+	zebra.Getname();
 
-	Giraff giraff
+	Giraff giraff;
 
 	giraff.Getmaxheight();
 	giraff.Getvikt();
@@ -133,11 +133,37 @@ int main()
 	giraff.Getserialnumber();
 	giraff.Getspeed();
 	giraff.Getname.();
-	
 
+	Pingvin pingvin;
 
+	pingvin.Gethomie();
+	pingvin.Getvikt();
+	pingvin.Getage();
+	pingvin.GetDiet();
+	pingvin.Getserialnumber();
+	pingvin.Getspeed();
+	pingvin.Getname();
 
-	
+	Lejon lejon;
+
+	lejon.Getxkg();
+	lejon.Getstringmeat();
+	lejon.Getvikt();
+	lejon.Getage();
+	lejon.GetDiet();
+	lejon.Getserialnumber();
+	lejon.Getspeed();
+	lejon.Getname();
+
+	Elephant elephant;
+
+	elephant.Getearsize();
+	elephant.Getvikt();
+	elephant.Getage();
+	elephant.GetDiet();
+	elephant.Getserialnumber();
+	elephant.Getspeed();
+	elephant.Getname();
 
 
 
