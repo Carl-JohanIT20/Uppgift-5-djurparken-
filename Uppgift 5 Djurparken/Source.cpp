@@ -5,17 +5,18 @@
 class Animal
 {
 public:
-	float vikt;
+	float weight;
 	int age;
 	std::string Diet;
 	int serialnumber;
 	float speed;
 	std::string name;//variabler
+	std::string animal;
 
-	void Getvikt()
+	void Getweight()
 	{
-		std::cout << "What is the animals vikt?" << std::endl;
-		std::cin >> vikt;
+		std::cout << "What is the animals weight?" << std::string animal << std::endl;
+		std::cin >> weight;
 	}
 	void Getage()
 	{
@@ -117,7 +118,7 @@ int main()
 	Zebra zebra;
 
 	zebra.GetMaxspeed();
-	zebra.Getvikt();
+	zebra.Getweight();
 	zebra.Getage();
 	zebra.GetDiet();
 	zebra.Getserialnumber();
@@ -127,7 +128,7 @@ int main()
 	Giraff giraff;
 
 	giraff.Getmaxheight();
-	giraff.Getvikt();
+	giraff.Getweight();
 	giraff.Getage();
 	giraff.GetDiet();
 	giraff.Getserialnumber();
@@ -137,7 +138,7 @@ int main()
 	Pingvin pingvin;
 
 	pingvin.Gethomie();
-	pingvin.Getvikt();
+	pingvin.Getweight();
 	pingvin.Getage();
 	pingvin.GetDiet();
 	pingvin.Getserialnumber();
@@ -148,7 +149,7 @@ int main()
 
 	lejon.Getxkg();
 	lejon.Getstringmeat();
-	lejon.Getvikt();
+	lejon.Getweight();
 	lejon.Getage();
 	lejon.GetDiet();
 	lejon.Getserialnumber();
@@ -158,7 +159,7 @@ int main()
 	Elephant elephant;
 
 	elephant.Getearsize();
-	elephant.Getvikt();
+	elephant.Getweight();
 	elephant.Getage();
 	elephant.GetDiet();
 	elephant.Getserialnumber();
@@ -169,3 +170,6 @@ int main()
 
 	return 0;
 }
+
+
+
