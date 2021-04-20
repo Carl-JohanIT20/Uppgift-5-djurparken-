@@ -117,11 +117,11 @@ int main()
 	Zebra zebra;
 
 	zebra.GetMaxspeed();
-	zebra.Getvikt(200);
-	zebra.Getage(25);
+	zebra.Getvikt();
+	zebra.Getage();
 	zebra.GetDiet();
 	zebra.Getserialnumber();
-	zebra.Getspeed(67);
+	zebra.Getspeed();
 	zebra.Getname();
 
 	Giraff giraff;
@@ -132,7 +132,7 @@ int main()
 	giraff.GetDiet();
 	giraff.Getserialnumber();
 	giraff.Getspeed();
-	giraff.Getname.();
+	giraff.Getname();
 
 	Pingvin pingvin;
 
